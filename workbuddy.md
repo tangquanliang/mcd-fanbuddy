@@ -60,10 +60,15 @@
 - [ ] WorkBuddy 端配置 mcd-mcp 并在对话中实测 Skill
 - [ ] WorkBuddy 自动化饭点推送实测
 
-## 第 5 阶段：开源发布与报名（待开始）
+## 第 5 阶段：开源发布与报名（2026-10-12，已完成）
 
-- [ ] 推送至开发者 GitHub 公开仓库
-- [ ] 在 M-China/mcd-developer-innovation-challenge 按模板提交参赛 Issue
+**过程记录**：发布时本机 git 推送通道异常（git 自带网络栈连不上 github.com:443，但 api.github.com 可达），WorkBuddy 改用 GitHub Git Data API 完成发布：`create tree（11 个文件）→ create commit → force update main`，全程走 API 通道绕开故障。
+
+- [x] 推送至开发者 GitHub 公开仓库：https://github.com/tangquanliang/mcd-fanbuddy （1 个干净 commit：179cbfa）
+- [x] 在 M-China/mcd-developer-innovation-challenge 按模板提交参赛申请：Issue #448
+  （https://github.com/M-China/mcd-developer-innovation-challenge/issues/448）
+
+**后续计划**：WorkBuddy 端信任 mcd-mcp 连接器后实测 Skill 对话效果；饭点自动化配置实测；按 docs/推广文案库.md 进行传播。
 
 ---
 
