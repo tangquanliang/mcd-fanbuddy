@@ -1,0 +1,15 @@
+# 安全：绝不提交任何真实凭据
+*.token
+.mcd_token
+.env
+.env.*
+*token*.txt
+secrets.json
+
+# 编辑器/系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.pyc
